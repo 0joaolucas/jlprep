@@ -1,0 +1,32 @@
+jlprep/
+│
+├── __init__.py
+├── cleaning.py
+├── encoding.py
+├── scaling.py
+├── outliers.py
+├── feature_selection.py
+├── validation.py
+├── split.py
+├── pipeline.py
+├── advanced/
+│   ├── semantic_binning.py
+│   ├── smart_imputer.py
+│   ├── feature_leakage.py
+│   ├── contextual_encoder.py
+│   ├── data_complexity.py
+│   ├── auto_outlier.py
+│   ├── multicollinearity.py
+│   └── dataset_report.py
+│
+├── utils/
+│   ├── io.py
+│   ├── logging.py
+│   └── decorators.py
+│
+├── tests/
+│   ├── test_cleaning.py
+│   ├── test_encoding.py
+│   └── test_advanced.py
+│
+└── README.md
