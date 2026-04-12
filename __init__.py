@@ -3,10 +3,10 @@
 __version__ = "0.1.0"
 
 # Importando funções diretamente para facilitar o uso
-from .preprocess.cleaning import remove_duplicates, remove_outliers, clean_missing
-from .preprocess.encoding import encode_label, encode_onehot
-from .preprocess.exploration import summarize_data, value_counts_plot, check_data_quality
-from .preprocess.quality import check_class_balance
+from .cleaning import remove_duplicates, remove_outliers, clean_missing
+from .encoding import encode_label, encode_onehot
+from .exploration import summarize_data, value_counts_plot, check_data_quality
+from .quality import check_class_balance
 
 __all__ = ["remove_duplicates",
            "remove_outliers",
