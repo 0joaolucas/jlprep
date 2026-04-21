@@ -81,7 +81,7 @@ def summarize_data(data):
     return resumo
 
 
-def value_counts_plot(data, column, normalize=False, top_n = False):
+def value_counts_plot(data, column, normalize=False, top_n = None):
      
      import matplotlib.pyplot as plt
 
